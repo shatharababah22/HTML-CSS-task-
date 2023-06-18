@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Basic HTML Form</h1>
+ <form action="/action_page.php" autocomplete="of">
+<fieldset >
+<legend>Name</legend>
+<Label for="fname">First Name</Label>
+<input type="text" name="fname" id="fname">
+<br> 
+<br>
+<Label for="lname">Last Name</Label>
+<input type="text" name="lname" id="lname"> 
+
+
+
+</fieldset>
+<fieldset>
+<legend>Other Questions</legend>
+<span>Choose a drink:</span>
+<br>
+<input type="radio" name="drink" id="Coffe" value="Coffe">
+<label for="Coffe">Coffe</label>
+
+<br>
+<input type="radio" name="drink" id="tea" value="tea" checked >
+<label for="tea">tea</label>
+<br>
+<input type="radio" name="drink" id="hot chocolate" value="hot chocolate" >
+<label for="hot chocolate">hot chocolate</label>
+<br>
+<br>
+<span>What ice cream do you like?</span>
+<br>
+<input type="checkbox" name="chocolate" id="chocolate" value="chocolate">
+<label for="chocolate">Chocolate</label>
+<br>
+<input type="checkbox" name="chocolate Pudding" id="chocolate Pudding" value="chocolate Pudding">
+<label for="chocolate Pudding">Chocolate Pudding</label>
+<br>
+<input type="checkbox" name="chocolate Peanut" id="chocolate Peanut" value="chocolate Peanut" checked>
+<label for="chocolate Peanut ">Chocolate Peanut Buuter</label>
+<br>
+<input type="checkbox" name="Vanilla" id="Vanilla" value="Vanilla">
+<label for="Vanilla">Vanilla</label>
+<br>
+<input type="checkbox" name="Strawberry" id="Strawberry" value="Strawberry">
+<label for="Strawberry">Strawberry</label>
+<br>
+<br>
+<label for="school">Select a school:</label>
+<br>
+<select name="school" id="school">
+  <option value="Harvard">Harvard</option>
+  <option value="Amman school">Amman school</option>
+</select>
+<br>
+<br>
+<span>Please provide comments:</span>
+<br>
+<textarea name="comments" cols="30" rows="4"></textarea>
+</fieldset>
+<br>
+
+<button type="submit">Submit</button>
+
+  </form>  
+</body>
+</html>

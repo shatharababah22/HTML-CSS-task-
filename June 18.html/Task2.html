@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Interests Survey form</title>
+</head>
+<body>
+<h1  align="center">Employee Interests Survey form</h1> 
+<form align="center" action="/action_page.php" autocomplete="of">
+    <label for="name" >Enter your name:</label>
+<input type="text" id="name" name="name">
+<br>
+<br>
+<label for=" department" >Enter your department:</label>
+<input type="text" id=" department" name=" department">
+<br>
+<br>
+<label for="yourself">Tell us a little about yourself:</label>
+<textarea id="yourself" name="yourself" cols="20" rows="3"></textarea>
+<br>
+<br>
+<span>Do you exercise at home?</span>
+<label for="yes">Yes</label>
+<input type="radio" value="Yes" id="yes" name="yes" >
+<label for="no">No</label>
+<input type="radio" value="no" id="no" name="yes" >
+<br>
+<br>
+<span>How do you like to read about your favorite topics?</span>
+<br>
+<br>
+<input type="checkbox" id="book" name="book" value="book">
+<label for="book"> Books</label>
+<input type="checkbox" id="resources" name="resources" value="resources">
+<label for="resources"> Online resources</label>
+
+<input type="checkbox" id="apps" name="apps" value="apps">
+<label for="apps">Phone apps</label>
+
+<input type="checkbox" id="Magazines" name="Magazines" value="Magazines">
+<label for="Magazines">Magazines</label>
+<br>
+<br>
+<label for="Movies">What genre of movies do you like?</label>
+<select size="1" id="Movies" name="Movies">
+    <option value="comedy">comedy</option>  
+  <option value="Action">Action</option>  
+  <option value="Family">Family</option>  
+</select>
+<br>
+<br>
+<button type="submit">Submit form</button>
+</form>
+</body>
+</html>
