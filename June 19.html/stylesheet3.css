@@ -1,0 +1,28 @@
+div {
+    background-color: white;
+    width: 550px;
+    border: 2px solid rgb(213,207,202); 
+    padding: 7px;
+}
+.color{
+background-color:rgb(253,202,150) ;
+
+
+}
+.color2{
+  background-color:rgb(249,252,150) ; 
+
+}
+.font{
+   border-color: black;
+border-style: dotted;
+}
+#font{
+    border-color: red;
+    border-style: dotted;
+}
+.font2{
+color:rgb(128,0,128) ;
+
+
+}
