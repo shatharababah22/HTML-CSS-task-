@@ -1,10 +1,8 @@
-td,tr{
+td{
     border: 1px solid black;
-
     border-radius: 7px;
     padding : 5px;
-    box-shadow: 2px 0px  #878787;
-}
+    box-shadow: 3px 3px 2px 0px #6e6d6d; }
   
 
 
