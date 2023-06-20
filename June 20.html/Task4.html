@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise  #4</title>
+    <style>
+        div{
+            border: 1px black dotted;
+            width: 420px;
+            height: 103px;
+            padding-top: 1px;
+           
+
+        }
+        div p{
+            border: 1px black dotted;
+            display: inline-block;
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            margin: 0px;
+            /* position: relative;
+            top: -16px; */
+         
+        }
+        .relative{
+             position: relative;
+             top: 17px;
+            left: 18px;
+            
+        }
+
+.width{
+    width: 314px;
+}
+        .absolute{
+            position: absolute; 
+           left:20px;
+           bottom: 220px;
+
+
+
+        }
+    </style>
+</head>
+<body>
+    <p>position: static</p>
+    <div>
+        <p>One</p>
+        <p style="background-color: green;">Two</p>
+        <p>Three</p>
+       <p>four</p>
+    </div>
+    <p>position: relative</p>
+<div>
+    
+    <p>One</p>
+    <p class="relative" style="background-color: green;">Two</p>
+    <p >Three</p>
+   <p>four</p>
+</div>
+<br><br><br>
+<p>position: absolute</p>
+<div class="width">
+   
+    <p class="one">One</p>
+    <p  class="absolute" style="background-color: green;">Two</p>
+    <p class="two">Three</p>
+   <p class="three">four</p>
+</div>
+</body>
+</html>
