@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise  #1</title>
+    <style>
+.grid{
+width:733px;
+height: 700px;
+  
+display: grid;
+grid-template-columns:244px 244px 244px ;
+grid-template-rows: 60px auto auto auto auto 60px;
+row-gap: 7px;
+column-gap: 6px;
+justify-content: space-between;
+}
+div div{
+    display: inline-block;
+  
+}
+ .Grid1{
+    grid-column:span 3;
+    width:733px;
+
+}
+.Grid2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column:span 2;   /* instead of grid-column: 1/3; */
+    width: 470px;
+    height:130px;
+}
+ .Grid3{
+    grid-column-start:3;
+    grid-column-end: 4; 
+    height:132px;
+    width:230px;
+
+ 
+ }
+
+.Grid4 {
+ grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start:1;
+    grid-column-end: 2;  
+    width:233px;
+    height:132px;
+    
+}  
+.Grid5{
+    /* grid-row-start: 3;
+    grid-row-end: 4; */
+    grid-column-start:2;
+    grid-column-end: 3; 
+    width:233px;
+    height:132px;
+    
+}  
+.Grid6{
+    /* grid-row-start: 3;
+    grid-row-end: 4; */
+    grid-column-start:3;
+    grid-column-end: 4; 
+    width:233px;
+    height:132px;
+    
+}  
+.Grid7{
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 4;
+grid-row-end: 5;
+height:132px;
+    width:230px;
+}
+.Grid8{
+    /* grid-row-start: 4;
+grid-row-end: 5; */
+grid-column-start: 2;
+grid-column-end: 4;
+width: 470px;
+    height:130px;
+}
+.flex1{
+    width: 733px;
+    /* border: 1px solid black; */
+display: flex;
+justify-content: space-between;
+}
+.flex{
+    grid-row-start: 5;
+grid-row-end: 6;
+    flex-direction: row;
+    /* display: inline-block; */
+ 
+    width:150px;
+    height:130px ;
+}
+    </style>
+</head>
+
+<body>
+    <center>
+   <div class="grid">
+    <div  class="Grid1" style="background-color: rgb(128,128,128);"></div>
+    <div class="Grid2" style="background-color:blue;"></div>
+   
+    <div class="Grid3" style="background-color: rgb(173,216,230);"></div>
+ 
+          <div class="Grid4" style="background-color: yellow;"></div>
+    <div class="Grid5" style="background-color: yellow;"></div>
+    <div class="Grid6" style="background-color: yellow;"></div>
+    
+   
+    <div  class="Grid7" style="background-color: rgb(173,216,230);"></div>
+    <div  class="Grid8" style="background-color:blue; width: 484px;"></div>
+   <div class="flex1">
+    <div   class="flex" style="background-color:orange;"></div>
+    <div  class="flex" style="background-color:orange;"></div>
+    <div  class="flex"  style="background-color:orange;"></div>
+    <div  class="flex" style="background-color:orange;"></div> </div> 
+    <div  class="Grid1" style="background-color: rgb(128,128,128);"></div>
+   </div> </center>
+</body>
+</html>
