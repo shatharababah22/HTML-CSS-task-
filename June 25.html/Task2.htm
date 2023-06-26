@@ -1,0 +1,42 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color: green;
+            width: 200px;
+            height: 200px;
+
+            border-radius: 15px;
+            animation-name: example;
+            animation-duration: 8s;
+            position:relative;
+
+            margin-left: 200px;
+            animation-timing-function: linear;
+        }
+        @keyframes example {
+     0%  {background-color: green; left:0px ; top:0px;}
+    25%   {background-image:linear-gradient(rgb(47,181,67),rgb(62,227,154),rgb(75,255,225));left:400px ;top:0px;} 
+
+    35%  {background-image: linear-gradient(rgb(71,247,250),rgb(44,137,250),rgb(28,43,245));left:400px ;top:510px;}
+
+    45%  {background-image: linear-gradient(rgb(45,41,208),rgb(106,104,151),rgb(94,100,7));  left:0px ;top:510px;} 
+    55%  {background-image: linear-gradient(yellow , rgb(224, 152, 19)); left:-200px ;top:510px;}
+    65%  {background-image: linear-gradient(yellow , rgb(224, 152, 19)); left:-200px ;top:510px;}
+    75%  {background-image:linear-gradient(rgb(130,49,35),rgb(76,94,21),rgb(38,140,0)); left:-200px ;top:0px;}
+   100%  { background-image: linear-gradient(rgb(130,49,35),(rgb(106, 41, 29))); left:0px ;top:0x;}
+
+
+
+
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
